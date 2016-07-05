@@ -26,20 +26,11 @@
 <script src="/xiaoshu.admin/js/xiaoshu.js"></script>
 <script src="/xiaoshu.admin/js/common/container.js"></script>
 <script src="/xiaoshu.admin/js/common/right.js"></script>
-<script src="/xiaoshu.admin/js/engineer/detail.js"></script>
+<script src="/xiaoshu.admin/js/common/detail.js"></script>
 <script src="/common/regionjs"></script>
 <script src="/xiaoshu.admin/js/base/regionSelector.js"></script>
 <script src="/xiaoshu.admin/js/base/SingleImageUploader.js"></script>
 <script src="/xiaoshu.admin/js/base/plugins/jquery/webuploader/webuploader.js"></script>
 <script type="text/javascript" src="/js/base/plugins/laydate/laydate.js"></script>
-    <!--adminUser-->
-    <!--<script src="/js/admin/adminUser.js"></script>
-    <script>
-        function search_success_callback() {
-            adminUser.bindOperate();
-        }
-    </script>-->
-
-    <!--base-->
 @endpush
 
