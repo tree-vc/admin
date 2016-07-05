@@ -13,6 +13,6 @@
     },
     "require": {
 	    "laravel/framework": "5.2.*",
-	    "xiaoshu/founcation": "0.1.*"
+	    "xiaoshu/foundation": "0.1.*"
     }
 }
