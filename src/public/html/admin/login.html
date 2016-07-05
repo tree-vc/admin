@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <title>SuperLink-账号登录</title>
+    <link type="text/css" rel="stylesheet" href="/css/admin.css"/>
+    <script src="/js/base/jquery-1.7.1.min.js"></script>
+    <script src="/js/base/treevc.js"></script>
+    <style type="text/css">
+        html {overflow:auto;}
+    </style>
+</head>
+<body>
+
+<div id="wapper">
+    <div id="header" class="bg-white clearfix bg">
+        <div class="login_logo"></div>
+        <div class="login_header">
+            <span class="login_header_title">账号登录</span>
+        </div>
+    </div>
+    <div class="login_bg">
+        <div class="login_container">
+            <div class="login">
+                <div class="hide"><input name="redirect" value="<{$redirect}>"></div>
+                <div class="login_div" >
+                    <input name="name" required required-msg="请输入用户名" data-error="error_box" type="text" class="login_input" placeholder="用户名" autocomplete="off"><img src="/images/login_03.jpg" class="img_position">
+                </div>
+
+                <div class="login_div">
+                    <input name="password" required required-msg="请输入密码" data-error="error_box" type="password" class="login_input" placeholder="密码" autocomplete="off"><img src="/images/login_05.jpg" class="img_position">
+                </div>
+
+                <div id="captcha" class="clearfix">
+                    <img  id="img" src="/captcha/image" width="80" height="34" title="点击刷新验证码" class="pointer f-right" /><input name="captcha" required required-msg="请输入验证码" data-error="error_box" type="text" class="login_input login_yzm" placeholder="验证码">
+                </div>
+
+                <div class="login_error"><div data-name="error_box"></div></div>
+                <div>
+                    <input id="login" type="button" value="登&nbsp;&nbsp;录" class="login_button">
+                </div>
+                <div class="wjmm"><a href="/admin/find_password" class="">忘记密码？</a></div>
+            </div>
+        </div>
+        <div class="copyright" style="vertical-align: bottom;">&copy;2015&nbsp;&nbsp;SuperLk.com&nbsp;&nbsp;浙ICP备15038305号-1 </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="/js/admin/login.js"></script>
+</html>
