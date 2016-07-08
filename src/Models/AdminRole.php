@@ -1,6 +1,6 @@
 <?php
 
-namespace Xiaoshu\Foundation\Models;
+namespace Xiaoshu\Admin\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Xiaoshu\Admin\Models\BackendRole;

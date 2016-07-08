@@ -21,7 +21,7 @@ class XiaoshuAdminServiceProvider extends ServiceProvider
         /* 使用说明 */
         /*
          * 在 App/Http/Kernel.php 中的 $routeMiddleware中加入以下这行
-         * 'backend.authorize'     => \App\Http\Middleware\BackendAuthorize::class,
+         * 'backend.authorize'     => \Xiaoshu\Admin\Middleware\BackendAuthorize::class,
          * view 要自己手动复制
          * 参考本组件下的routes.php配置路由
          * 配置以下三个文件
